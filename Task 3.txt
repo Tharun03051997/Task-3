@@ -1,0 +1,93 @@
+Day 3 Assignement:
+
+1.For the given JSON iterate overall for (for,forin, for of, for Each)
+
+for loop:
+
+var text = [ {"name":"Tharun","age":25},{"name":"Harika","age":25}];
+for(var i=0; i<text.length; i++){
+var result;
+result = text[i];
+console.log(result);
+}
+
+
+for of:
+
+var text = [ {"name":"Tharun","age":25},{"name":"Harika","age":25}];
+for(var userkey of text)
+{
+console.log(userkey);
+}
+
+for Each:
+
+
+var text = [ {"name":"Tharun","age":25},{"name":"Harika","age":25}];
+text.forEach((n) => {
+console.log(n);
+});
+
+for in:
+
+var text = [ {"name":"Tharun","age":25},{"name":"Harika","age":25}];
+for(var result in text)
+{
+    console.log(text[result]);
+}
+
+
+2. Create your own resume data in json format
+
+var resume = [{"name":"Tharun", 
+               "Education": "B.E"(Autombile), 
+               "years of Experience": "3yrs", 
+               "Past Company" : "TCS", 
+               "Skill Set" :"Java,Python, oracle, c++". 
+               "Languages Known": "English, Tamil"}];
+
+3. Read about the difference between window, screen and document in javascipt
+
+Document Object: Each HTML document that gets loaded in a window becomes a document object. The document contains the contents of the page.
+Using document object,Javascript can modify, add and delete the HTML elements attributes CSS styles in the page
+
+
+Window object: The window object represents a window/tab containing a DOM document.
+
+Screen: Screen is the window property that holds informatio o browser Screen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
